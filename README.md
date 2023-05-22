@@ -1,5 +1,7 @@
 # ToolsQA
 
+You must have git and nodejs installed
+
 Execute:
 
 Clone the repo
