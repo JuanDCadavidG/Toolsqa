@@ -9,36 +9,36 @@ describe('ToolsQA | Widgets  | Dropdown Select-Menu', function () {
 
     })
 
-    it('16718 | TC1: Validate do click on dropdown Select Value and select the Group 2 - Option 2.', () => {
+    it('TC1: Validate do click on dropdown Select Value and select the Group 2 - Option 2.', () => {
        
         selectMenus.clickSelectValue()
         selectMenus.clickGroup2Option2()
 
     })
-    it('16718 | TC2: Validate do click on dropdown Select One and select Ms.', () => {
+    it('TC2: Validate do click on dropdown Select One and select Ms.', () => {
         
         selectMenus.clickSelectOne()
         selectMenus.clickMs()
         
     })
-    it('116718 | TC3: Validate do click on dropdown Old Style Select Menu and select Black color.', () => {
+    it('1TC3: Validate do click on dropdown Old Style Select Menu and select Black color.', () => {
 
         selectMenus.selectOldStyleSelectMenu(this.fxt.color)
 
     })
-    it('16718 | TC4: Validate do click on dropdown Multiselect and select Green, Blue, Black and Red colors.', () => {
+    it('TC4: Validate do click on dropdown Multiselect and select Green, Blue, Black and Red colors.', () => {
 
         selectMenus.clickMultiselectDropdown()
         selectMenus.clickAllColors()
         cy.contains(this.fxt.noOptions)
 
     })
-    it('16718 | TC5: Validate selecy Audi in standard multiselect.', () => {
+    it('TC5: Validate selecy Audi in standard multiselect.', () => {
 
         selectMenus.selectStandardMultiSelect(this.fxt.car)
 
     })
-    it('16718 | TC6: Validate do all TCs previous and their conditions.', () => {
+    it('TC6: Validate do all TCs previous and their conditions.', () => {
 
         selectMenus.clickSelectValue()
         selectMenus.clickGroup2Option2()
